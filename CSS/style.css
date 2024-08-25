@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope);
+@import url(https://fonts.googleapis.com/css?family=Comic+Neue);
+
+
+#header{
+    grid-area:header;
+    background-color: rgb(255, 106, 161);
+}
+
+.con{margin-left:20px;
+margin-bottom:30px;}
+
+#header img{transition: transform .2s;
+    transition-duration:0.4s;}
+#header img:hover{transform: scale(1.5);
+width:10%}
+
+#header h4{
+    background-color: rgb(255, 106, 161);
+    font-size:50px;
+    text-align:center;
+    font-family:yu gothic;
+    color: rgb(247, 230, 230);
+    font-weight:100;
+    margin-bottom:75px;
+}
+
+
+
+#wrapper{display:grid;
+grid-template-columns: 2fr 5fr;
+grid-template-areas:
+    "nav header"
+    "nav bio"
+    "footer footer"
+}
+
+#Cil img:hover{transform: scale(0.9);
+    transition-duration:0.4s;
+}
+#Cil img{    
+    transition-duration:0.4s;}
+
+
+
+#nav{
+    grid-area:nav;
+    background-color: rgb(190, 223, 228);}
+
+#nav li{font-size:30px;
+padding-bottom:40px;
+font-weight:100;
+font-family:yu gothic;
+}
+
+#nav a:hover{background-color:rgb(143, 172, 178);
+display:inline-block;
+margin-left:15px;
+padding-left:20px;
+padding-right:10px;
+    transition-duration:0.5s;
+}
+
+#nav a{transition-duration:0.5s;}
+
+h3{font-size:30px;
+    text-align:center;
+    font-family:yu gothic;;
+    font-weight:100;
+}
+#nav ul{list-style-type:none;}
+#nav li a{text-decoration:none;
+color:darkslategray;
+font-family:yu gothic;
+}
+
+#bio{
+    grid-area:bio;
+    background-color:white;
+}
+
+
+.Cul{margin-left:20%}
+
+#footer{
+    grid-area:footer;
+background-color: rgb(143, 172, 178);
+    text-align:center;
+}
+.footerp{font-family:yu gothic;
+font-size:15px;
+margin-left:30%;
+margin-right:30%}
+
+
+#pepeha{width:60%;
+margin-left:20%;
+margin-top:50px;
+margin-bottom:50px;
+}
+
+.short{;
+margin-left:18%;
+margin-right:18%;
+text-align:center;
+font-family:yu gothic;
+}
+
+.dahl{font-family:dahlia;}
+
+.abm{margin-bottom:0}
+
+.igm{width: 50%;
+margin-left:25%;
+margin-right:25%;}
+
+
+
+.2pc1{grid-area:2pc1;
+padding-left:20%;}
+
+.2pc{grid-area:2pc;
+}
+
+
+
+.biop{font-family:yu gothic;
+    margin-left:8%;
+
+}
+
+.wrapper1{display:grid;
+grid-template-areas:
+    "2pc1 2pc";}
+
+
+.img8{padding-left:15%;}
+
+
+.collapsible{padding-bottom:25px;}
+.collapsible-toggle {
+    display: none;}
+
+.collapsible-btn {
+  background-color: rgb(255, 106, 161);
+  color: rgb(247, 230, 230);
+  padding: 10px 20px;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+ display: block;
+font-size:25px;
+font-family:dahlia;
+transition-duration:0.4s;}
+
+.collapsible-content{
+  max-height: 0;
+  overflow: hidden;
+}
+
+.collapsible-toggle:checked + .collapsible-btn + .collapsible-content {
+    max-height: 10000px;}
+
+.collapsible-btn:hover{Padding-left:8%;
+    Background-color:rgb(255, 181, 198);
+color:rgb(255, 106, 161);}
+
+
+
+
